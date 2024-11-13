@@ -9,7 +9,7 @@ export default function Header() {
         <img className="w-96" src={logo} alt="" />
       </div>
       
-        <p className="text-xl text-gray-400">Journalism Without Fear or Favour</p>
+        <p className="text-xl  text-gray-400">Journalism Without Fear or Favour</p>
         <p className="font-semibold text-gray-500">{moment().format('LLLL')}</p>
       
     </div>
