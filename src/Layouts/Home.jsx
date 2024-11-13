@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Header from "../Components/Header/Header";
 import LatestNews from "../Components/LatestNews/LatestNews";
 import Navbar from "../Components/Navbar/Navbar";
@@ -14,9 +15,13 @@ export default function Home() {
       <nav>
         <Navbar></Navbar>
       </nav>
-      <main>
-
+      <main className="grid md:grid-cols-12 gap-3">
+        <aside className="col-span-3 bg-red-400">left side</aside>
+        <section className="col-span-6 bg-green-300">
+          <Outlet></Outlet>
+        </section>
+        <aside className="col-span-3 bg-purple-500">right side</aside>
       </main>
     </div>
-  )
+  );
 }

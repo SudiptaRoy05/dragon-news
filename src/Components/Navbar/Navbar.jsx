@@ -1,5 +1,6 @@
 import { CgProfile } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
+import user from '../../assets/user.png'
 
 export default function Navbar() {
   const links = (
@@ -43,9 +44,7 @@ export default function Navbar() {
         </div>
         <div className="navbar-end gap-3">
           <div>
-            <span className="text-5xl">
-              <CgProfile></CgProfile>
-            </span>
+            <img src={user} alt="" />
           </div>
           <div>
             <button className="btn bg-[#403F3F] px-6 text-white">Login</button>
