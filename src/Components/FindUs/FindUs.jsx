@@ -8,7 +8,7 @@ export default function FindUs() {
     <div>
       <h2 className="font-semibold">Find Us On</h2>
       <div className="mt-3 ml-5 border border-gray-500 rounded-lg font-semibold text-gray-500">
-        <div className=" border-b border-gray-500 py-4 pl-10 hover:bg-base-300">
+        <div className=" border-b border-gray-500 rounded-t-lg py-4 pl-10 hover:bg-base-300">
           <a className="w-full flex items-center gap-2">
             <span>
               <FaFacebook></FaFacebook>
@@ -24,7 +24,7 @@ export default function FindUs() {
             <span>Twitter</span>
           </a>
         </div>
-        <div className=" py-3 pl-10 hover:bg-base-300">
+        <div className=" py-3 pl-10 hover:bg-base-300 rounded-b-lg">
           <a className="w-full flex items-center gap-2">
             <span>
               <FaInstagramSquare></FaInstagramSquare>
