@@ -24,7 +24,7 @@ export default function Home() {
         <section className="col-span-6 bg-green-300">
           <Outlet></Outlet>
         </section>
-        <aside className="col-span-3 bg-purple-500">
+        <aside className="col-span-3">
           <RighhtNav></RighhtNav>
         </aside>
       </main>

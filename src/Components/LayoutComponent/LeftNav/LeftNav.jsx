@@ -12,7 +12,7 @@ export default function LeftNav() {
   return (
     <div>
       <h3 className="font-semibold">All Category</h3>
-      <div className="grid">
+      <div className="grid pt-3">
         {
             categories.map(category => <Category key={category.id} category={category}></Category>)
         }

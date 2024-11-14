@@ -1,8 +1,9 @@
+import SocilaLogin from "../../SocilaLogin/SocilaLogin";
 
 export default function RighhtNav() {
   return (
     <div>
-      <h3>Right Nav</h3>
+      <SocilaLogin></SocilaLogin>
     </div>
   )
 }
